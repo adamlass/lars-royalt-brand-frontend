@@ -41,7 +41,7 @@ export default class CarView extends Component {
                 <p><strong>Weight:</strong> {car.weight} kg</p>
                 <p><strong>Dimentions:</strong> {car.length} x {car.width} x {car.height} m </p>
                 <p><strong>Volumen:</strong> {car.volumen} m^3</p>
-                <button onClick={() => window.location.replace("confirmed")} style={{fontSize:50, color: "#161210", backgroundColor: "#a68117", width:500, border:"none"}}>Purchase</button>
+                <button onClick={() => window.location.href = "#/confirmed"} style={{fontSize:50, color: "#161210", backgroundColor: "#a68117", maxWidth: 500, width: "98%", border:"none"}}>Purchase</button>
               </div>
 
               <br/>
